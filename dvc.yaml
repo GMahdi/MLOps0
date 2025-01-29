@@ -1,0 +1,6 @@
+# Type dvc-help in this file and hit enter to get more information on how the extension can help to setup pipelines
+stages:
+  eval:
+    cmd: python src/stages/eval.py
+    deps:
+      - src/stages/eval.py
